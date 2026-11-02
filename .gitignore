@@ -1,0 +1,15 @@
+# Puntos de control automáticos de Jupyter
+.ipynb_checkpoints/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Archivo de ejemplo que crea la función open() del notebook 3
+ejemplo_open.txt
+
+# Archivos del sistema y temporales de Office
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
