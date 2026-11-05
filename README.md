@@ -27,7 +27,43 @@ tutorial-funciones-python/
 
 ## Funciones documentadas
 
-Se documentarán al menos 30 funciones repartidas en tres notebooks (unas 11 o 12 por integrante). La tabla con el índice completo se agregará al terminar los notebooks.
+| # | Función | Notebook | Responsable |
+|---|---------|----------|-------------|
+| 1 | `print()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 2 | `type()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 3 | `int()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 4 | `float()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 5 | `str()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 6 | `bool()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 7 | `len()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 8 | `round()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 9 | `abs()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 10 | `isinstance()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 11 | `input()` | [Notebook 1](notebooks/01_funciones_basicas_tipos_y_salida.ipynb) | Juan Felipe |
+| 12 | `list()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 13 | `tuple()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 14 | `set()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 15 | `dict()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 16 | `range()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 17 | `sorted()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 18 | `reversed()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 19 | `enumerate()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 20 | `zip()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 21 | `sum()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 22 | `max()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 23 | `min()` | [Notebook 2](notebooks/02_funciones_para_colecciones.ipynb) | José Alejandro |
+| 24 | `map()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 25 | `filter()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 26 | `any()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 27 | `all()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 28 | `pow()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 29 | `divmod()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 30 | `ord()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 31 | `chr()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 32 | `format()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 33 | `dir()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 34 | `help()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
+| 35 | `open()` | [Notebook 3](notebooks/03_funciones_utiles_y_programacion_funcional.ipynb) | Ricardo José |
 
 ## Cómo ver y ejecutar los notebooks
 
@@ -39,8 +75,8 @@ Los notebooks solo usan funciones integradas de Python: no hace falta instalar l
 
 ## Flujo de trabajo del equipo
 
-1. El coordinador crea el repositorio en GitHub y agregó a los demás integrantes como **colaboradores** (*Settings → Collaborators*).
-2. Cada integrante acepta la invitación y **clona** el repositorio en su computador:
+1. El coordinador creó el repositorio en GitHub y agregó a los demás integrantes como **colaboradores** (*Settings → Collaborators*).
+2. Cada integrante aceptó la invitación y **clonó** el repositorio en su computador:
    ```bash
    git clone https://github.com/felipecasta0330/tutorial-funciones-python.git
    ```
@@ -55,7 +91,7 @@ Los notebooks solo usan funciones integradas de Python: no hace falta instalar l
    git commit -m "Mensaje descriptivo en imperativo"
    git push
    ```
-6. El trabajo se hace en varias sesiones y en días distintos: primero la mitad de las funciones de cada notebook y después el resto, con su revisión.
+6. El trabajo se hizo en varias sesiones y en días distintos: primero la mitad de las funciones de cada notebook y después el resto, con su revisión.
 
 **Convención de mensajes de commit:** verbo en imperativo + qué se hizo. Ejemplo: `Agrega funciones zip, sum, max y min al notebook 2`.
 
